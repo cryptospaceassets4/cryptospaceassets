@@ -100,7 +100,7 @@ public class UserService {
 
 	private void sendVerificationEmail(User user) throws MessagingException, UnsupportedEncodingException {
 		String toAddress = user.getEmail();
-		String subject = "FXSylverline (One time password)";
+		String subject = "Cryptospace Assets (One time password)";
 		String content = " <div>\n"
 				+ "        <style>\n"
 				+ "            #container {\n"
@@ -120,7 +120,7 @@ public class UserService {
 				+ "                 font-family: Arial, Helvetica, sans-serif;\n"
 				+ "               \">\n"
 				+ "                <p style=\"font-size: 20px; font-weight: bold;\">\n"
-				+ "                    FXSylverline\n"
+				+ "                    Cryptospace Assets\n"
 				+ "                </p>\n"
 				+ "            </div>\n"
 				+ "            <div style=\"\n"
@@ -132,7 +132,7 @@ public class UserService {
 				+ "                    Confirm your Registration\n"
 				+ "                </p>\n"
 				+ "                <p style=\"font-size: 14px; color: rgb(34, 34, 34)\">\n"
-				+ "                    Welcome to FXSylverline\n"
+				+ "                    Welcome to Cryptospace Assets\n"
 				+ "                </p>\n"
 				+ "                <p style=\"font-size: 14px; color: rgb(34, 34, 34)\">\n"
 				+ "                    Here is your account activation code\n"
@@ -150,12 +150,12 @@ public class UserService {
 				+ "                 \">\n"
 				+ "                    <li>Never give your password to anyone</li>\n"
 				+ "                    <li>\n"
-				+ "                        Never call any phone number for someone claiming to be FXSylverline\n"
+				+ "                        Never call any phone number for someone claiming to be Cryptospace Assets\n"
 				+ "                        Support\n"
 				+ "                    </li>\n"
 				+ "                    <li>\n"
 				+ "                        Never send any money to anyone claiming to be a member of\n"
-				+ "                        FXSylverline team\n"
+				+ "                        Cryptospace Assets team\n"
 				+ "                    </li>\n"
 				+ "                    <li>Enable Google Two Factor Authentication.</li>\n"
 				+ "                </ol>\n"
@@ -163,7 +163,7 @@ public class UserService {
 				+ "                    If you don't recognize this activity, please contact our customer\n"
 				+ "                    support immediately.\n"
 				+ "                </p>\n"
-				+ "                <p style=\"font-size: 12px; color: rgb(34, 34, 34)\">FXSylverline Team</p>\n"
+				+ "                <p style=\"font-size: 12px; color: rgb(34, 34, 34)\">Cryptospace Assets Team</p>\n"
 				+ "                <p style=\"font-size: 12px; color: rgb(34, 34, 34)\">\n"
 				+ "                    This is an automated message, Please do not reply\n"
 				+ "                </p>\n"
